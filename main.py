@@ -11,8 +11,8 @@ def transformar_csv(entrada, salida):
             writer.writerow(fila)
 
 if __name__ == '__main__':
-    entrada = 'original.csv'
-    salida = 'transformado.csv'
+    entrada = 'Garantias_09_2025_base.csv'
+    salida = 'Garantias_09_2025.csv'
 
     if not os.path.exists(entrada):
         print(f"❌ No se encuentra el archivo '{entrada}' en la ruta actual.")
